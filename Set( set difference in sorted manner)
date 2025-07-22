@@ -1,0 +1,15 @@
+a = int(input())
+set1 = set(map(int, input().split()))
+   
+
+c = int(input())
+ 
+set2 = set(map(int,input().split()))
+res = list(sorted(set1.symmetric_difference(set2)))
+for i in range(len(res)):
+    print(res[i])
+
+#can also use
+#for i in res:
+    #print(i)
+     
