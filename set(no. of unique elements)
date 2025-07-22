@@ -1,0 +1,8 @@
+n = int(input("input size")) #no of countries
+s = set()
+for i in range(n):
+    c = input("add countries") #add countries
+    s.add(c) #add it to set
+print(len(s))
+     
+ 
